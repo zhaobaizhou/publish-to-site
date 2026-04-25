@@ -1,5 +1,6 @@
 node_modules/
 dist/
+main.js
 .DS_Store
 data.json
 plugin-data-backup.json
