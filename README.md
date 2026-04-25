@@ -1,6 +1,6 @@
 # Publish to Site
 
-Publish selected Obsidian notes to a local Astro site.
+Publish selected Markdown notes to a local Astro site.
 
 Publish to Site is an Obsidian plugin for writers who draft in Obsidian and publish to a static blog. It scans Markdown notes by frontmatter rules, shows what is ready or blocked, converts publishable notes, syncs local images, and writes the output into an Astro project.
 
@@ -217,4 +217,3 @@ Open a GitHub issue with:
 ## License
 
 MIT. See [LICENSE](LICENSE).
-
