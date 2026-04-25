@@ -1,0 +1,292 @@
+.publish-to-astro-settings-header {
+  max-width: 820px;
+  margin-bottom: 1rem;
+}
+
+.publish-to-astro-settings-header h2 {
+  margin-bottom: 0.35rem;
+}
+
+.publish-to-astro-settings-header p {
+  margin-top: 0;
+  color: var(--text-muted);
+}
+
+.publish-to-astro-validation {
+  margin: 1rem 0 1.5rem;
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 8px;
+  background: var(--background-secondary);
+}
+
+.publish-to-astro-validation--error {
+  border-color: var(--color-red);
+  background: color-mix(in srgb, var(--color-red) 8%, var(--background-secondary));
+}
+
+.publish-to-astro-validation--warning {
+  border-color: var(--color-orange);
+  background: color-mix(in srgb, var(--color-orange) 8%, var(--background-secondary));
+}
+
+.publish-to-astro-validation strong {
+  display: block;
+  margin-bottom: 0.35rem;
+}
+
+.publish-to-astro-validation p {
+  margin: 0.5rem 0 0;
+}
+
+.publish-to-astro-validation ul {
+  margin: 0.5rem 0 0;
+  padding-left: 1.25rem;
+}
+
+.publish-to-astro-validation-item--error {
+  color: var(--color-red);
+}
+
+.publish-to-astro-validation-item--warning {
+  color: var(--color-orange);
+}
+
+.publish-to-astro-settings-section {
+  margin: 1rem 0 1.25rem;
+  padding: 1rem;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 8px;
+  background: var(--background-primary-alt);
+}
+
+.publish-to-astro-settings-section h3 {
+  margin: 0 0 0.35rem;
+}
+
+.publish-to-astro-settings-section .setting-item {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.publish-to-astro-settings-section .setting-item:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.publish-to-astro-section-note {
+  margin: 0.25rem 0 1rem;
+  color: var(--text-muted);
+  font-size: 0.9em;
+}
+
+.publish-to-astro-guide-list {
+  margin: 0.25rem 0 0.75rem;
+  padding-left: 1.3rem;
+  color: var(--text-muted);
+  font-size: 0.9em;
+}
+
+.publish-to-astro-guide {
+  margin-top: 0.35rem;
+}
+
+.publish-to-astro-guide__summary {
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.publish-to-astro-guide__body {
+  margin-top: 0.75rem;
+}
+
+.publish-to-astro-guide-list li {
+  margin: 0.2rem 0;
+}
+
+.publish-to-astro-config-json {
+  width: 100%;
+  min-height: 12rem;
+  resize: vertical;
+  font-family: var(--font-monospace);
+  font-size: 0.85em;
+}
+
+.publish-to-astro-config-json--modal {
+  min-height: 18rem;
+}
+
+.publish-to-astro-modal-actions {
+  margin-top: 0.75rem;
+}
+
+.publish-to-astro-modal-actions .setting-item {
+  border-bottom: none;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.publish-to-astro-progress {
+  margin-top: 0.75rem;
+  padding: 0.75rem;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 8px;
+  background: var(--background-secondary);
+}
+
+.publish-to-astro-progress--hidden {
+  display: none;
+}
+
+.publish-to-astro-progress__bar {
+  display: block;
+  width: 100%;
+  height: 0.75rem;
+}
+
+.publish-to-astro-progress__text {
+  margin-top: 0.5rem;
+  color: var(--text-muted);
+  font-size: 0.9em;
+  word-break: break-word;
+}
+
+.publish-to-astro-summary {
+  margin: 1rem 0 1.5rem;
+  padding: 1rem;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 10px;
+  background: var(--background-secondary);
+}
+
+.publish-to-astro-summary h3 {
+  margin-top: 0;
+}
+
+.publish-to-astro-summary ul {
+  margin: 0.75rem 0 0;
+  padding-left: 1.25rem;
+}
+
+.publish-to-astro-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 0.75rem;
+  margin: 1rem 0 1.5rem;
+}
+
+.publish-to-astro-stat-card {
+  padding: 0.85rem 1rem;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 10px;
+  background: var(--background-primary-alt);
+}
+
+.publish-to-astro-stat-card--success {
+  border-color: var(--color-green);
+}
+
+.publish-to-astro-stat-card--warning {
+  border-color: var(--color-orange);
+}
+
+.publish-to-astro-stat-card__label {
+  color: var(--text-muted);
+  font-size: 0.85em;
+}
+
+.publish-to-astro-stat-card__value {
+  margin-top: 0.35rem;
+  font-size: 1.4em;
+  font-weight: 600;
+}
+
+.publish-to-astro-candidate-section {
+  margin: 1.5rem 0;
+}
+
+.publish-to-astro-candidate-card {
+  margin: 0.75rem 0;
+  padding: 1rem;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 12px;
+  background: var(--background-secondary);
+}
+
+.publish-to-astro-candidate-card__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.publish-to-astro-candidate-card__meta {
+  margin-top: 0.75rem;
+  display: grid;
+  gap: 0.35rem;
+  color: var(--text-muted);
+  font-size: 0.95em;
+}
+
+.publish-to-astro-pill,
+.publish-to-astro-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.15rem 0.55rem;
+  border-radius: 999px;
+  font-size: 0.8em;
+  line-height: 1.6;
+}
+
+.publish-to-astro-pill {
+  border: 1px solid var(--background-modifier-border);
+  color: var(--text-muted);
+}
+
+.publish-to-astro-pill--success {
+  border-color: var(--color-green);
+  color: var(--color-green);
+}
+
+.publish-to-astro-pill--warning {
+  border-color: var(--color-orange);
+  color: var(--color-orange);
+}
+
+.publish-to-astro-badge-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.85rem;
+}
+
+.publish-to-astro-badge--match {
+  background: color-mix(in srgb, var(--color-green) 12%, transparent);
+  color: var(--color-green);
+}
+
+.publish-to-astro-badge--miss {
+  background: color-mix(in srgb, var(--background-modifier-border) 50%, transparent);
+  color: var(--text-muted);
+}
+
+.publish-to-astro-issue-list {
+  margin: 0.9rem 0 0;
+  padding-left: 1.25rem;
+}
+
+.publish-to-astro-issue--error {
+  color: var(--color-red);
+}
+
+.publish-to-astro-issue--warning {
+  color: var(--color-orange);
+}
+
+.publish-to-astro-empty-state {
+  padding: 0.85rem 1rem;
+  border-radius: 10px;
+  background: var(--background-secondary);
+  color: var(--text-muted);
+}

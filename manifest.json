@@ -1,0 +1,9 @@
+{
+  "id": "publish-to-site",
+  "name": "Publish to Site",
+  "version": "0.1.0",
+  "minAppVersion": "1.5.0",
+  "description": "Publish selected Obsidian notes to a local Astro site.",
+  "author": "Baizhou",
+  "isDesktopOnly": true
+}

@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.DS_Store
+data.json
+plugin-data-backup.json
+*.log
+AGENTS.md
+PRD.md
+PHASE1_PLAN.md
